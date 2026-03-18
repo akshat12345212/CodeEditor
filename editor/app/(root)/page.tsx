@@ -188,7 +188,7 @@ export default function Home() {
                   left: `${seed(2, i) * 100}%`,
                   width: `${seed(3, i) * 4 + 1}px`,
                   height: `${seed(4, i) * 4 + 1}px`,
-                  animationDelay: `${seed(5, i) * 5}s`,
+                  animationDelay: `${seed(5, i ) * 5}s`,
                   animationDuration: `${seed(6, i) * 10 + 5}s`
                 }}
               ></div>
