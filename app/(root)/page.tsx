@@ -184,11 +184,11 @@ export default function Home() {
                 key={i}
                 className="absolute rounded-full bg-cyan-400/20 animate-[ping_7s_cubic-bezier(0,0,0.2,1)_infinite]"
                 style={{
-                  top: `${seed(1, i) * 100}%`,
+                  top: `${seed(1, i) * 10*10}%`,
                   left: `${seed(2, i) * 100}%`,
                   width: `${seed(3, i) * 4 + 1}px`,
                   height: `${seed(4, i) * 4 + 1}px`,
-                  animationDelay: `${seed(5, i) * 5}s`,
+                  animationDelay: `${seed(5, i ) * 5}s`,
                   animationDuration: `${seed(6, i) * 10 + 5}s`
                 }}
               ></div>
