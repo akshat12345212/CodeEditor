@@ -16,7 +16,7 @@ const Page = () => {
       </div>
       <div className ="mt-10 flex flex-col justify-center items-center w-full">
 {
-  playground && playground.length === 0 ? <EmptySpace title="NO project found " description="Please add a new project to get started." imageSrc="/noproject.webp"/>:
+  playground && playground.length === 0 ? <EmptySpace title="NO project found " description="Please add a new project to get started." imageSrc="/noprojectfound.webp"/>:
   (
     // add playgroundtable 
    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex error neque voluptatum exercitationem reiciendis sed voluptas soluta, ad earum eligendi expedita nulla veniam id modi sint laborum placeat dignissimos. Doloremque?</p>
