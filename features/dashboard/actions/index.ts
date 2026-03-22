@@ -34,7 +34,7 @@ catch(error){
     return null;
 }
 }
-export const getAllPlayground =async ()=>{
+export const getAllPlaygroundForUser =async ()=>{
     const user= await currentUser();
     if (!user?.id) {
         throw new Error("You must be signed in to view your playgrounds.");
