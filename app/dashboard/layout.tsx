@@ -1,12 +1,14 @@
 // "use client";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import {DashboardSidebar} from "@/features/dashboard/components/dashboard-sidebar";
+import { getAllPlayground } from "../../features/dashboard/actions";
 
 export default  async function DashboardLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const playgroundData=await getAllPlayground
   return (
     <SidebarProvider>
         <div className="flex min-h-h-screen w-full overflow-x-hidden ">
